@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Geometr212 BkCn BT;
+}
+.br {
+    font-family: roboto;
+}
+.again {
+    background-color: whitesmoke;
+}
+.every {
+    display: flex;
+    margin-left: 10vh;
+}
+.hh {
+    color: #78098E;
+}
+all{
+    margin-left: 50vh;
+}
+.h3 {
+    font-size: 4vh;
+    padding-bottom: 0;
+    margin-left: 10vh;
+    color:#78098E;
+}
+p {
+    color: #78098E;
+}
+.both {
+    margin-left: 30vh;
+}
+.one {
+    display: flex;
+    margin-left: 4vh;
+    margin-top: 2vh;
+}
+.two {
+    display: flex;
+    margin-left: 4vh;
+    margin-top: 2vh;
+}
+.three {
+    display: flex;
+    margin-left: 4vh;
+    margin-top: 2vh;
+}
+.elements {
+    margin-left: 20vh;
+    margin-top: 5vh;
+    display: flex;
+}
+.b {
+    padding-top: 12vh;
+    border-radius: 4vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    margin-left: 1vh;
+    margin-right: 5vh;
+    background-color: plum;
+    color: white;
+}
+.c {
+    border-radius: 4vh;
+    padding: 7vh;
+    margin-left: 12vh;
+    background-color: plum;
+}
+.d {
+    border-radius: 4vh;
+    padding: 5vh;
+    margin-left: 18vh;
+    background-color: plum;
+}
+.wel {
+    color: rgb(158, 155, 155);   
+}
+a {
+    color: rgb(158, 155, 155);
+    text-decoration: none;
+}
+button {
+    padding: 1vh 0.5vh 1vh 2vh;
+    background-color: #78098E;
+    color: white;
+    border-radius: 2vh;
+}
