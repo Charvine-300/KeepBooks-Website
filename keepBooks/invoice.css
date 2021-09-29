@@ -34,3 +34,9 @@ button {
     color: white;
     border-radius: 5vh;
 }
+
+#message {
+    height: fit-content;
+    width: fit-content;
+    margin: 3% auto;
+}

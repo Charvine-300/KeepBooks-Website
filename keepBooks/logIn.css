@@ -19,7 +19,11 @@ body{
 }
 .main{
     display: flex;
-    
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
 }
 .login{
     width: 934px;
