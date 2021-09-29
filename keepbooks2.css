@@ -1,0 +1,97 @@
+
+
+/*==========  ID Rules  ==========*/
+#menu-bar {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#benu-bar {
+    width: 70%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: auto;
+}
+
+/*==========  Class Rules  ==========*/
+.carousel {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.about-us {
+    margin-top: 5%;
+}
+
+.cohort-analysis img {
+    margin-top: 0%;
+}
+
+.odd-one {
+    height: 247px;
+}
+
+.aligner {
+    margin: 10% auto;
+}
+
+
+/*==========  Element Rules  ==========*/
+h3 {
+    font-size: 60px !important;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 17px;
+    color: hsl(0, 0%, 0%) !important;
+}
+
+ul {
+    margin: 0px !important;
+    margin-left: auto !important;
+}
+
+header {
+    margin: 2% auto;
+}
+
+
+
+/*==========  Animation and Pseudo Rules  ==========*/
+#benu-bar a:hover {
+    color: hsl(300, 100%, 17%)!important;
+}
+
+
+
+/*==========  Media Queries Rules  ==========*/
+@media screen and (max-width: 1366px) {
+    #benu-bar {
+        margin-top: -5%;
+    }
+
+   @media screen and (orientation: landscape) {
+    h3 {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .cohort-analysis img {
+        margin-top: 5%;
+    }
+   }
+}
+
+

@@ -1,0 +1,372 @@
+:root {
+    --o-topfonts-font-family: "Josefin Sans";
+    --o-bottomfonts-font-family: "Alata";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    background-color: #f8eafb !important;
+}
+
+@font-face {
+    font-family: "Alata";
+    src: url("Alata-Regular.ttf")
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*==========  ID Rules  ==========*/
+#first-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#second-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#benu-bar {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#menu-bar {
+    width: 100%;
+    margin: 3% auto;
+    height: fit-content;
+    margin-bottom: 0% !important;
+    background-color: hsl(300, 100%, 17%);
+}
+
+#slideshow-section {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    background-color: hsl(0, 0%, 0%);
+}
+
+#message-box {
+    margin: 8% 5%;
+    position: absolute;
+    width: 90%;
+    height: fit-content;
+}
+
+#available-devices {
+    width: 80%;
+    margin: 5% auto;
+    height: fit-content;
+}
+
+#get-started {
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+#tablet-fondler {
+    width: 90%;
+    margin: 0% auto;
+    height: fit-content;
+}
+
+/*==========  Class Rules  ==========*/
+.brand-name {
+    font-weight: bolder;
+    color: hsl(300, 100%, 17%);
+} 
+
+.features {
+    width: 50%;
+    display: block;
+    margin: 5% auto;
+}
+
+.mad-love {
+    width: 100%;
+    margin: 5% auto;
+}
+
+.about-us {
+    width: 80%;
+    height: fit-content;
+    margin: 15% auto;
+}
+
+.cohort-analysis {
+    width: 100%;
+    height: 100%;
+    margin: 5% auto;
+}
+
+.cohort-analysis img {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0% auto;
+}
+
+.briefing-tab {
+    width: 80%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.button-color {
+    background-color: hsl(300, 100%, 17%) !important;
+}
+
+.book-span {
+    margin-left: 6px;
+}
+
+.header-span {
+    width: fit-content;
+    display: inline-block;
+}
+
+.logo-box {
+    margin: 0%;
+    display: inline;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo-image {
+    width: 40px;
+    margin: 0px;
+    height: 40px;
+}
+
+.logo-box p {
+    font-size: 10px !important;
+    display: inline !important;
+    font-style: italic !important;
+    text-align: center !important;
+    font-weight: bolder !important;
+}
+
+.logo-box h1 {
+    display: inline;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: var(--o-topfonts-font-family);
+}
+
+.fine-print {
+    font-size: 25px;
+    font-family: var(--o-topfonts-font-family);
+}
+
+.sign-in {
+    font-size: 13px;
+    display: block;
+    margin: 0% auto;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: hsl(300, 100%, 17%);
+}
+
+.sign-in a{
+    color: hsl(0, 0%, 100%) !important;
+}
+
+
+
+/*==========  Element Rules  ==========*/
+header {
+    width: 90%;
+    margin: 4% auto;
+    margin-bottom: 0%;
+    height: fit-content;
+}
+
+ul {
+    width: fit-content;
+    list-style-type: none;
+    padding: 0px !important;
+    margin: 0% auto !important;
+}
+
+button {
+    border-color: transparent;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    font-size: 13px;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: none !important;
+    color: hsl(0, 0%, 100%) !important;
+    font-family: var(--o-bottomfonts-font-family);
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px !important;
+    font-family: var(--o-bottomfonts-font-family);
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px !important;
+    color: hsl(300, 100%, 17%);
+    font-family: var(--o-bottomfonts-font-family);
+}
+
+h4 {
+    font-size: 17px;
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(300, 100%, 17%);
+    font-family: var(--o-bottomfonts-font-family);
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--o-topfonts-font-family);
+}
+
+
+
+
+
+/* footer  */
+.footer {
+    height: 150px;
+   background-color: hsl(300, 100%, 17%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: white;
+    font-size: 0.9rem;
+    margin: 0 auto;
+}
+
+/*========== Animation and Pseudo Rules  ==========*/
+#menu-bar a:hover {
+    transition: all 0.5s ease-in-out;
+    color: hsl(300, 100%, 17%) !important;
+    background-color: hsl(0, 0%, 100%) !important;
+}
+
+.sign-in:hover {
+    background-color: transparent;
+    border: 2px solid hsl(300, 100%, 17%);
+}
+
+.sign-in a:hover {
+    color: hsl(300, 100%, 17%) !important;
+}
+
+
+
+
+/*==========  Media Queries Rules  ==========*/
+@media only screen and (orientation: landscape) {
+    #menu-bar {
+        margin: 2% auto;
+    }
+    
+    #first-flexbox {
+        flex-direction: row-reverse;
+    }
+
+    #second-flexbox {
+        width: 90%;
+        margin: 0% auto;
+        flex-direction: row;
+    }
+
+    #available-devices {
+        width: 92%;
+    }
+
+    .mad-love p {
+        text-align: center;
+    }
+    .about-us {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .cohort-analysis {
+        width: 50%;
+    }
+
+    .right-side {
+        text-align: right !important;
+    }
+
+    .sign-in {
+        margin: 0%;
+        margin-left: auto;
+    }
+
+    .changer {
+        flex-direction: row !important;
+    }
+
+    .cohort-analysis img {
+        margin-top: 15%;
+    }
+
+    #message-box {
+        width: 50%;
+        margin-right: 7%;
+    }
+
+    .fine-print {
+        font-size: 30px;
+    }
+
+    .mad-love {
+        width: 33%;
+        margin: 2% auto;
+    }
+
+    a {
+        padding: 0px 15px;
+    }
+
+    h2 {
+        font-size: 70px !important;
+        text-align: left;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    p {
+        text-align: left;
+        font-size: 13px;
+    }
+    
+}
+
+
+

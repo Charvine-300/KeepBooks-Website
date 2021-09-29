@@ -1,0 +1,77 @@
+body {
+    background-color: #f7ebfa;
+}
+
+@font-face {
+    font-family: "Alata";
+    src: url("Alata-Regular.ttf")
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    width: 80%;
+    margin: 5% auto;
+    height: fit-content;
+}
+
+#spreadsheet-wrapper {
+    width: 75%;
+    margin: auto;
+    height: fit-content;
+}
+
+#problem-info {
+    width: 80%;
+    margin: 0% auto;
+    height: fit-content;
+}
+
+#statistics-flexbox {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Josefin Sans";
+}
+
+a {
+    color: hsl(300, 100%, 17%); 
+}
+
+h2 {
+    text-align: left;
+    font-size: 50px;
+    font-family: "Alata";
+    color: hsl(300, 100%, 17%);
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Josefin Sans";
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+    border-collapse: separate;
+    border: 3px solid hsl(300, 100%, 17%);
+}
+
+td {
+    text-align: center;
+    font-family: "Alata";
+    border: 3px solid hsl(300, 100%, 17%);
+}
+
+.stats-board {
+    width: 33%;
+    height: 100%;
+    margin: 3% auto;
+}
