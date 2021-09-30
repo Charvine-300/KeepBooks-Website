@@ -1,49 +1,184 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> KB Statistics </title>
-    <link rel="stylesheet" href="spreadsheet.css" />
+    <title>KeepBooks | Bookkeeping Made Easy </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="images/database.svg" sizes="32x32" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="keepbooks.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap-5.1.1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="(min-width: 1024px)" href="keepbooks2.css" />
 </head>
 <body>
-    <header style="width: 90%; margin-bottom: 3%;">
-        <img src="images/newKee.png" alt="Logo Image" />
-    </header>
-    <div id="problem-info">
-        <h2>Speaking with journalists in Lagos, </h2>
-        <div id="problem-info" style="margin: 0%; margin-right: auto;">
-            <p>
-                The director of Sage One West Africa, Nikki Summers, said statistics
-                shows that 70 - 80 percent of businesses fail in the second year basically
-                due to lack of insight in their business. <br>
-                They try to run it on excel and that generally does not work. Because
-                of that lack of insight in their second year, they start running into 
-                operational troubles due to cash flow. 
-            </p>
-        </div>
+  <header>
+    <div class="logo-box">
+      <img src="images/database.svg" alt="KeepBooks Icon" align="left" class="logo-image" />
+      <div class="header-span"> <h1> KEEP <br> <span class="book-span">BOOKS</span> </h1> </div> 
+      <br>
+      <p>Bookkeeping Made Easy </p>
+    </div>
+    <div id="benu-bar">
+      <ul>
+        <button> <a href="#About"> About Us</a> </button>
+        <button> <a href="statistics.html" target="_blank"> Statistics </a> </button>
+        <button> <a href="./"> Support </a> </button>
+        <button> <a href="keepBooks/signUp.html" target="_blank">Log In </a> </button>
+      </ul>
+    </div>
+  </header>
 
-        <div id="statistics-flexbox">
-            <img src="images/pie meraki.png" alt="Hack 1" class="stats-board" style="width: 100%;"/>
+  <div id="menu-bar">
+    <ul>
+      <button> <a href="#About"> About Us</a> </button>
+      <button> <a href="./"> Features </a> </button>
+      <button> <a href="./"> Support </a> </button>
+      <button> <a href="./"> Log In/Sign Up </a> </button>
+    </ul>
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active button-color" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  class="button-color" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="button-color" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div id="slideshow-section"></div>
+        <div id="message-box">
+          <h2>
+            <span class="brand-name"> KeepBooks </span> Accounting. <br>
+            <span class="fine-print"> Bookkeeping Made Easy. </span>
+          </h2>
         </div>
-        <div id="problem-info" style="margin: 0%; margin-right: auto;">
-            <p>
-                The second problem with the cash fund issues is that they need funding 
-                to start growing their business but banks are not willing to give them
-                loans because they cannot provide proper financials as proof that they 
-                are capabale of paying off their debts.
-                <br>
-                <br>
-                Statistics released by the Sage One company indicates that SMEs owners
-                spend 52 hours a week on administrative tasks, which is over two days of 
-                distracton rather than focusing on the core business, as a result of running
-                data and bookkeeping manually.
+        <img src="images/book-keeping.jpg" class="d-block w-100" alt="Book Keeping" />
+      </div>
+      <div class="carousel-item">
+        <div id="slideshow-section"></div>
+        <div id="message-box">
+          <h2>
+            You've Got 99 problems <br>
+            <span class="fine-print"> Why should cash flow be one? </span>
+          </h2>
+        </div>
+        <img src="images/cash-flow.jpg" class="d-block w-100" alt="Cash Flow" />
+      </div>
+      <div class="carousel-item">
+        <div id="slideshow-section"></div>
+        <div id="message-box">
+          <h2>
+            Spend Smartly. <br>
+            <span class="fine-print"> Keep track of your profit and loss in order to maintain balance. </span>
+          </h2>
+        </div>
+        <img src="images/savings-tracker.jpg" class="d-block w-100" alt="Savings Tracker" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="about-us" name="#About">
+    <div id="first-flexbox">
+      <div class="cohort-analysis">
+        <img src="images/aboutus.svg" alt="Cohort Analysis" />
+      </div>
+      <div class="cohort-analysis">
+        <div class="briefing-tab">
+          <h3> About Us </h3>
+          <p>
+            We are a web-based company that provide small businesses with seamless and free
+            bookkeeping services.
+            <br>
+            <br>
+            We help our customers track of their financial activites like cash flow, profit and 
+            loss, validate and reflect financial positions, provide smelly and transport goods to
+            keep their businesses afloat and make them eligible for bank loans with evidence of 
+            favourable profits. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="available-devices">
+    <h3>Personalize Your Business </h3>
+    <div id="second-flexbox">
+      <div class="mad-love">
+        <img src="images/reciepts.svg" alt="keep Reciepts" class="features" />
+        <div class="briefing-tab">
+          <h4>Upload Reciepts </h4>
+          <p>
+            <span class="brand-name"> KeepBooks </span> stores photo records of your reciepts and extracts certain data 
+            to help track your expenses and ensure you are organised in time for taxes.
+          </p>
+        </div>
+      </div>
+      <div class="mad-love">
+        <img src="images/invoices.svg" alt="Compiled Invoice" class="features" />
+        <div class="briefing-tab">
+          <h4> Invoice Compilation </h4>
+          <p>
+            We at <span class="brand-name"> KeepBooks </span> aim at efficient compilation and recording of
+            all your financial activities whwne you upload your invoices.
+          </p>
+        </div>
+      </div>
+      <div class="mad-love">
+        <img src="images/reports.svg" alt="Check Reports" class="features" />
+        <div class="briefing-tab">
+          <h4> View Reports </h4>
+          <p>
+            We ensure that you have a steady understanding of how your business
+            is doing with a range of popular reports
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="get-started">
+    <div id="tablet-fondler">
+      <div id="first-flexbox" class="changer">
+        <div class="cohort-analysis">
+          <img src="images/responsive.svg" alt="Available on all devices" />
+        </div>
+        <div class="cohort-analysis">
+          <div class="briefing-tab  aligner">
+            <h3 class="right-side"> Available on all devices </h3>
+            <p class="right-side">
+              User information is saved to the cloud therefore making data 
+             accessible on any devices chosen for data viewing and usage.
+             <br>
+             <br>
+             Access and manage your books from your computer, laptop, tablet or
+            smartphone anytime you choose. Create access privileges so that your colleague 
+            or accountant can log in and work with your data online.
             </p>
-            <h2> <a href="homepage.html"> This is where we come in... </a></h2>
+            <button class="sign-in"> <a href="./"> Get Started </a></button>
+          </div>
         </div>
+      </div>
+
     </div>
     
+  </div>
+
+    <footer class="footer ">
+      <div>
+
+        <p>Copyright 2021  KeepBooks.com</p>
+      </div>
+    </footer>
+
+
+  <script src="./assets/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+  <script src="keepbooks.js"></script>
 </body>
 </html>
