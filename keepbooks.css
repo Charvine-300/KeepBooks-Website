@@ -69,16 +69,22 @@ body {
 }
 
 #get-started {
-    width: 100%;
-    margin: 5% auto;
+    width: 90%;
+    margin: 3% auto;
     border-radius: 20px;
     height: fit-content;
 }
 
 #tablet-fondler {
-    width: 90%;
+    width: 100%;
     margin: 0% auto;
     height: fit-content;
+}
+
+#footer-tab {
+    width: 90%;
+    padding: 4% 0%;
+    margin: 0% auto;
 }
 
 /*==========  Class Rules  ==========*/
@@ -95,13 +101,13 @@ body {
 
 .mad-love {
     width: 100%;
-    margin: 5% auto;
+    margin: 3% auto;
 }
 
 .about-us {
     width: 80%;
     height: fit-content;
-    margin: 15% auto;
+    margin: 8% auto;
 }
 
 .cohort-analysis {
@@ -177,11 +183,8 @@ body {
     text-align: center;
     padding: 10px 30px;
     border-radius: 40px;
-    background-color: hsl(300, 100%, 17%);
-}
-
-.sign-in a{
     color: hsl(0, 0%, 100%) !important;
+    background-color: hsl(300, 100%, 17%);
 }
 
 
@@ -247,22 +250,14 @@ p {
     font-family: var(--o-topfonts-font-family);
 }
 
-
-
-
-
-/* footer  */
-.footer {
-    height: 150px;
-   background-color: hsl(300, 100%, 17%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: hsl(300, 100%, 17%);
 }
-.footer p{
-    color: white;
-    font-size: 0.9rem;
+#footer-tab p{
     margin: 0 auto;
+    color: hsl(0, 0%, 100%) !important;
 }
 
 /*========== Animation and Pseudo Rules  ==========*/
@@ -280,7 +275,6 @@ p {
 .sign-in a:hover {
     color: hsl(300, 100%, 17%) !important;
 }
-
 
 
 
