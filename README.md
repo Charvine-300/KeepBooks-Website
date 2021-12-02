@@ -11,6 +11,9 @@ Built with:
 - Flexbox
 - Mobile-first workflow
 
+View Site Live at:
+https://keep-books.netlify.app
+
 
 Author:
 Charvine Inc.
